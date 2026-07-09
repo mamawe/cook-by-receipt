@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Food Storage Calculator: How Long Does Food Last? | cook by Receipt</title>
+<meta name="description" content="Free interactive food storage calculator. Search any ingredient to get exact fridge, freezer, and pantry shelf-life in days. Plus storage tips and spoilage signs.">
+<meta name="keywords" content="food storage calculator, shelf life calculator, how long does food last, food expiration calculator, fridge life calculator">
+<link rel="canonical" href="https://fridgechef.app/tools/storage-calculator.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Food Storage Calculator — How Long Does Food Last?">
+<meta property="og:description" content="Free interactive tool: search any ingredient and get exact shelf-life data for fridge, freezer, and pantry.">
+<meta property="og:url" content="https://fridgechef.app/tools/storage-calculator.html">
+<link rel="stylesheet" href="/content-styles.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Food Storage Calculator","description":"Interactive tool to look up shelf-life data for any food ingredient.","url":"https://fridgechef.app/tools/storage-calculator.html","applicationCategory":"FoodAndDrinkApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://fridgechef.app/"},{"@type":"ListItem","position":2,"name":"Tools","item":"https://fridgechef.app/tools/"},{"@type":"ListItem","position":3,"name":"Storage Calculator","item":"https://fridgechef.app/tools/storage-calculator.html"}]}
+</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header class="fc-header">
+  <div class="fc-header-inner">
+    <a href="/" class="fc-logo"><span class="fc-logo-badge">FC</span><span>cook by Receipt</span></a>
+    <a href="/" class="fc-header-cta">Open App →</a>
+  </div>
+</header>
+
+<main class="fc-main">
+<nav class="fc-breadcrumbs"><a href="/">Home</a><span>›</span><a href="/tools/">Tools</a><span>›</span>Storage Calculator</nav>
+
+<article>
+<header class="fc-article-header">
+<span class="fc-tag">Free Tool</span>
+<h1 class="fc-article-title">Food Storage Calculator</h1>
+<div class="fc-article-meta"><span>📅 Updated July 2026</span><span>🔍 60+ ingredients</span><span>✅ Free, no signup</span></div>
+</header>
+
+<div class="fc-quick-answer">
+<div class="fc-quick-answer-label">How It Works</div>
+<p>Type any ingredient name (or select from the list) to instantly see how long it lasts in the fridge, freezer, and pantry — plus storage tips and spoilage signs.</p>
+</div>
+
+<!-- Tool UI -->
+<div class="fc-tool" id="storageTool">
+<div class="fc-tool-input">
+<input type="text" id="ingredientSearch" placeholder="Type an ingredient (e.g., chicken, eggs, spinach, milk)..." autocomplete="off" list="ingredientList">
+<datalist id="ingredientList"></datalist>
+<button id="lookUpBtn">Look Up</button>
+</div>
+
+<div class="fc-tool-result" id="resultBox">
+<div class="fc-tool-result-card">
+<h4 id="resultName"></h4>
+<div class="fc-tool-stat"><span class="fc-tool-stat-label">🧊 Fridge</span><span class="fc-tool-stat-value" id="resultFridge"></span></div>
+<div class="fc-tool-stat"><span class="fc-tool-stat-label">❄️ Freezer</span><span class="fc-tool-stat-value" id="resultFreezer"></span></div>
+<div class="fc-tool-stat"><span class="fc-tool-stat-label">🏪 Pantry</span><span class="fc-tool-stat-value" id="resultPantry"></span></div>
+<div class="fc-tool-stat"><span class="fc-tool-stat-label">🌡️ Best Temp</span><span class="fc-tool-stat-value" id="resultTemp" style="font-size:13px"></span></div>
+<div class="fc-tool-stat"><span class="fc-tool-stat-label">💡 Storage Tip</span><span class="fc-tool-stat-value" id="resultTip" style="font-size:12px;text-align:right"></span></div>
+<p id="resultSpoilage" style="margin-top:12px;font-size:13px;color:#78716c;border-top:1px solid #e7e5e4;padding-top:10px"></p>
+<p id="resultLink" style="margin-top:8px;font-size:13px"></p>
+</div>
+</div>
+
+<div id="noResult" style="display:none;text-align:center;padding:20px;color:#a8a29e;font-size:14px;">
+<p>No exact match found. Try a broader term (e.g., "chicken" instead of "chicken thigh").</p>
+</div>
+</div>
+
+<!-- Default popular searches -->
+<div class="fc-article-body" style="margin-top:32px">
+<h2 id="popular">Popular Searches</h2>
+<div class="fc-cluster-grid" id="popularGrid">
+<!-- Populated by JS -->
+</div>
+
+<h2 id="about">About This Calculator</h2>
+<p>This food storage calculator uses data from the USDA Food Safety and Inspection Service, FDA food safety guidelines, and food science research. All shelf-life estimates assume proper storage at recommended temperatures. Actual shelf life may vary based on freshness at purchase, storage conditions, and handling.</p>
+
+<div class="fc-cta">
+<h3>Track Expiry Dates Automatically</h3>
+<p>This calculator tells you how long food lasts. cook by Receipt tracks it for you — automatically alerting you before ingredients expire and generating recipes to use them up.</p>
+<a href="/" class="fc-cta-btn">Try cook by Receipt Free →</a>
+</div>
+
+<h2 id="related">Related Resources</h2>
+<ul>
+<li><a href="/guides/food-storage-guide.html">Complete Food Storage Guide</a> — Full shelf-life tables for 50+ ingredients</li>
+<li><a href="/guides/how-long-do-eggs-last.html">How Long Do Eggs Last?</a> — Deep dive on egg freshness</li>
+<li><a href="/guides/how-long-does-chicken-last-in-fridge.html">How Long Does Chicken Last?</a> — Safe chicken storage</li>
+<li><a href="/recipes/">Zero-Waste Recipes</a> — Recipes for using expiring ingredients</li>
+</ul>
+</div>
+</article>
+</main>
+
+<footer class="fc-footer">
+<div class="fc-footer-inner">
+<div class="fc-footer-links">
+<a href="/">cook by Receipt App</a>
+<a href="/privacy">Privacy</a>
+<a href="/terms">Terms</a>
+<a href="/guides/food-storage-guide.html">Storage Guide</a>
+<a href="/recipes/">Recipes</a>
+</div>
+<p>© 2026 cook by Receipt. Turn your fridge into a zero-waste kitchen.</p>
+</div>
+</footer>
+
+<script src="/tools/storage-calculator.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+# cook by Receipt
+
+> Smart pantry tracker and AI-powered zero-waste meal planner. Track your fridge inventory, get personalized recipes based on expiring ingredients, and reduce food waste.
+
+## What cook by Receipt Does
+
+cook by Receipt is a web application that helps households reduce food waste by tracking pantry inventory, monitoring expiry dates, and generating AI-powered meal plans that prioritize using ingredients before they spoil. Key features include:
+
+- Pantry inventory management with automatic expiry tracking
+- AI meal plan generation based on real-time pantry contents
+- Smart restock suggestions based on cooking frequency
+- Food waste analytics and sustainability metrics
+- Dietary restriction and allergen management
+- Receipt scanning for automatic ingredient import
+
+## Content Resources
+
+### Guides
+- [Guides Hub](https://fridgechef.app/guides/): Browse all food storage and meal planning guides
+- [Food Storage Guide](https://fridgechef.app/guides/food-storage-guide.html): Complete shelf-life reference for 50+ ingredients
+- [How Long Do Eggs Last?](https://fridgechef.app/guides/how-long-do-eggs-last.html): Egg freshness, float test, and storage tips
+- [How Long Does Chicken Last in the Fridge?](https://fridgechef.app/guides/how-long-does-chicken-last-in-fridge.html): Raw vs. cooked chicken shelf life and safety
+- [How Long Does Spinach Last?](https://fridgechef.app/guides/how-long-does-spinach-last.html): Storage methods and spoilage signs
+- [How to Keep Herbs Fresh](https://fridgechef.app/guides/how-to-keep-herbs-fresh.html): 3 methods for extending herb life by weeks
+- [Meal Planning 101](https://fridgechef.app/guides/meal-planning-101.html): Beginner's guide to meal prep and saving money
+
+### Recipes
+- [Zero-Waste Recipes](https://fridgechef.app/recipes/): Creative recipes using expiring ingredients
+
+### Tools
+- [Tools Hub](https://fridgechef.app/tools/): Browse all free kitchen tools
+- [Food Storage Calculator](https://fridgechef.app/tools/storage-calculator.html): Interactive tool to look up shelf-life for any ingredient
+
+### Blog
+- [How to Cut Food Waste in Half](https://fridgechef.app/blog/reduce-food-waste.html): Practical zero-waste kitchen habits
+
+## Application
+- [cook by Receipt App](https://fridgechef.app/): The main web application
+
+## Data Sources
+All food storage data is based on USDA Food Safety and Inspection Service guidelines, FDA food safety recommendations, and peer-reviewed food science research.

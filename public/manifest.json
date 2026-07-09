@@ -1,0 +1,42 @@
+{
+  "name": "cook by Receipt — Smart Pantry & Zero-Waste Meal Planner",
+  "short_name": "cook by Receipt",
+  "description": "Track your pantry, get AI-powered meal plans, and reduce food waste.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAF9F6",
+  "theme_color": "#0f766e",
+  "categories": ["food", "lifestyle", "productivity"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Pantry",
+      "url": "/?tab=pantry",
+      "description": "View your ingredient inventory"
+    },
+    {
+      "name": "Meal Planner",
+      "url": "/?tab=plan",
+      "description": "Generate AI meal plans"
+    },
+    {
+      "name": "Add Groceries",
+      "url": "/?action=capture",
+      "description": "Scan a receipt or paste a shopping list"
+    }
+  ]
+}

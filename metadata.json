@@ -1,0 +1,6 @@
+{
+  "name": "cook by Receipt",
+  "description": "智能食材管家：智能拍照或文字录入食材，一键生成每日三餐食谱并根据库存动态扣减与规划。",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
