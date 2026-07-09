@@ -374,7 +374,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`[Server] cook by Receipt is running at http://0.0.0.0:${PORT} in ${process.env.NODE_ENV || 'development'} mode.`);
+    console.log(`[Server] Receipt 2 meal is running at http://0.0.0.0:${PORT} in ${process.env.NODE_ENV || 'development'} mode.`);
   });
 }
 

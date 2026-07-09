@@ -1,5 +1,5 @@
 /**
- * cook by Receipt Shared TypeScript Types
+ * Receipt 2 meal Shared TypeScript Types
  * English-native data model. Chinese is treated as a localization layer.
  */
 

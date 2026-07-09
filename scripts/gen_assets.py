@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate cook by Receipt branded assets: OG image, app icons, favicon."""
+"""Generate Receipt 2 meal branded assets: OG image, app icons, favicon."""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
@@ -46,13 +46,13 @@ d = ImageDraw.Draw(og)
 M = 90
 badge_cx, badge_cy, br = M + 105, M + 105, 105
 d.ellipse([badge_cx - br, badge_cy - br, badge_cx + br, badge_cy + br], fill=WHITE)
-fc_font = ImageFont.truetype(F_BLACK, 150)
-center_text(d, badge_cx, badge_cy + 4, "CR", fc_font, EMERALD)
+fc_font = ImageFont.truetype(F_BLACK, 100)
+center_text(d, badge_cx, badge_cy + 2, "R2M", fc_font, EMERALD)
 
-word_font = ImageFont.truetype(F_BLACK, 96)
+word_font = ImageFont.truetype(F_BLACK, 92)
 sub_font = ImageFont.truetype(F_REG, 38)
 word_y = badge_cy - 52
-d.text((M + 250, word_y), "cook by Receipt", font=word_font, fill=WHITE)
+d.text((M + 250, word_y), "Receipt 2 meal", font=word_font, fill=WHITE)
 d.text((M + 252, word_y + 104), "Smart Pantry & Zero-Waste Meal Planner", font=sub_font, fill=TEAL100)
 
 # ingredient chips row
@@ -80,8 +80,8 @@ S = 512
 icon = Image.new("RGBA", (S, S), (0, 0, 0, 0))
 d = ImageDraw.Draw(icon)
 d.rounded_rectangle([0, 0, S - 1, S - 1], radius=110, fill=EMERALD_A)
-fc = ImageFont.truetype(F_BLACK, 250)
-center_text(d, S / 2, S / 2 + 6, "CR", fc, WHITE + (255,))
+fc = ImageFont.truetype(F_BLACK, 200)
+center_text(d, S / 2, S / 2 + 6, "R2M", fc, WHITE + (255,))
 icon.save(os.path.join(PUB, "icon-512.png"))
 icon.resize((192, 192)).save(os.path.join(PUB, "icon-192.png"))
 print("wrote icon-512.png + icon-192.png")

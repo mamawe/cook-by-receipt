@@ -1,19 +1,19 @@
 /**
- * cook by Receipt Translation Strings & Mappings
+ * Receipt 2 meal Translation Strings & Mappings
  * English is the native language. Chinese (zh) is a localization.
  */
 
 export const TRANSLATIONS = {
   en: {
-    appName: "cook by Receipt",
+    appName: "Receipt 2 meal",
     tagline: "Smart Pantry & Zero-Waste Meal Planner",
-    footerText: "© 2026 cook by Receipt. Turn your fridge into a zero-waste kitchen.",
+    footerText: "© 2026 Receipt 2 meal. Turn your fridge into a zero-waste kitchen.",
     privacyLink: "Privacy Policy",
     termsLink: "Terms of Service",
     recipesLink: "Zero-Waste Recipes",
     blogLink: "Food-Waste Guide",
     pantryTips: "💡 FOOD SAVER TIP:",
-    pantryTipContent: "Store foods in the correct zones to prevent early spoilage. cook by Receipt helps maximize every ingredient's lifecycle, saving money and reducing your carbon footprint.",
+    pantryTipContent: "Store foods in the correct zones to prevent early spoilage. Receipt 2 meal helps maximize every ingredient's lifecycle, saving money and reducing your carbon footprint.",
     oneClickSeed: "Load Sample Pantry",
     addPurchase: "Add Groceries",
     tabs: {
@@ -51,7 +51,7 @@ export const TRANSLATIONS = {
       summaryText: "You have {count} active ingredients in your pantry. Let's make something incredible.",
       getStarted: "Generate Your Weekly Plan",
       noPlanTitle: "No Active Meal Plan",
-      noPlanDesc: "Let cook by Receipt's AI create a personalized 3-day or 7-day culinary experience tailored to your exact kitchen inventory and dietary preferences.",
+      noPlanDesc: "Let Receipt 2 meal's AI create a personalized 3-day or 7-day culinary experience tailored to your exact kitchen inventory and dietary preferences.",
       weeklyPlanBtn: "Curate Meal Plan",
       todaysMenu: "Today's Menu",
       breakfast: "Breakfast",
@@ -170,15 +170,15 @@ export const TRANSLATIONS = {
     }
   },
   zh: {
-    appName: "cook by Receipt 食盒",
+    appName: "Receipt 2 meal 食盒",
     tagline: "智能食材管家与零浪费餐食规划",
-    footerText: "© 2026 cook by Receipt. 让每一口食材都物尽其用。",
+    footerText: "© 2026 Receipt 2 meal. 让每一口食材都物尽其用。",
     privacyLink: "隐私政策",
     termsLink: "服务条款",
     recipesLink: "零浪费食谱",
     blogLink: "减废指南",
     pantryTips: "💡 减损小贴士：",
-    pantryTipContent: "将食材存放在正确的区域可以防止过早变质。cook by Receipt 帮助最大化每种食材的使用周期，省钱又环保。",
+    pantryTipContent: "将食材存放在正确的区域可以防止过早变质。Receipt 2 meal 帮助最大化每种食材的使用周期，省钱又环保。",
     oneClickSeed: "导入示例食材",
     addPurchase: "录入采购",
     tabs: {

@@ -283,7 +283,7 @@ export default function TodayTab({
             <Sparkles size={26} className="fill-emerald-500/5" />
           </div>
           <div>
-            <h3 className="text-lg font-black">{locale === 'en' ? "Welcome to cook by Receipt" : "欢迎来到 cook by Receipt！"}</h3>
+            <h3 className="text-lg font-black">{locale === 'en' ? "Welcome to Receipt 2 meal" : "欢迎来到 Receipt 2 meal！"}</h3>
             <p className="text-xs text-gray-500 max-w-md mx-auto mt-1 leading-relaxed">
               {locale === 'en'
                 ? "Your smart kitchen assistant. Add ingredients to your pantry and the AI will curate zero-waste meal plans tailored to your shelf-lifes and preferences."

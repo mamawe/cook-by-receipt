@@ -195,7 +195,7 @@ export default function PlanTab({
             <h3 className="text-lg font-black">{locale === 'en' ? "Curate Your Meal Plan" : "定制您的餐食计划"}</h3>
             <p className="text-xs text-gray-500 max-w-md mx-auto mt-1.5 leading-relaxed">
               {locale === 'en'
-                ? "cook by Receipt will use your pantry inventory, dietary parameters, and cooking tools to design delicious menus."
+                ? "Receipt 2 meal will use your pantry inventory, dietary parameters, and cooking tools to design delicious menus."
                 : "系统将根据您的库存、过敏原及厨具，生成个性化餐食计划。"}
             </p>
           </div>

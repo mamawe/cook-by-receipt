@@ -1,10 +1,10 @@
-# cook by Receipt
+# Receipt 2 meal
 
 > Smart pantry tracker and AI-powered zero-waste meal planner. Track your fridge inventory, get personalized recipes based on expiring ingredients, and reduce food waste.
 
-## What cook by Receipt Does
+## What Receipt 2 Meal Does
 
-cook by Receipt is a web application that helps households reduce food waste by tracking pantry inventory, monitoring expiry dates, and generating AI-powered meal plans that prioritize using ingredients before they spoil. Key features include:
+Receipt 2 meal is a web application that helps households reduce food waste by tracking pantry inventory, monitoring expiry dates, and generating AI-powered meal plans that prioritize using ingredients before they spoil. Key features include:
 
 - Pantry inventory management with automatic expiry tracking
 - AI meal plan generation based on real-time pantry contents
@@ -35,7 +35,7 @@ cook by Receipt is a web application that helps households reduce food waste by 
 - [How to Cut Food Waste in Half](https://fridgechef.app/blog/reduce-food-waste.html): Practical zero-waste kitchen habits
 
 ## Application
-- [cook by Receipt App](https://fridgechef.app/): The main web application
+- [Receipt 2 meal App](https://fridgechef.app/): The main web application
 
 ## Data Sources
 All food storage data is based on USDA Food Safety and Inspection Service guidelines, FDA food safety recommendations, and peer-reviewed food science research.

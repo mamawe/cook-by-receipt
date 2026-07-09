@@ -1,6 +1,6 @@
 {
-  "name": "cook by Receipt — Smart Pantry & Zero-Waste Meal Planner",
-  "short_name": "cook by Receipt",
+  "name": "Receipt 2 meal — Smart Pantry & Zero-Waste Meal Planner",
+  "short_name": "Receipt 2 meal",
   "description": "Track your pantry, get AI-powered meal plans, and reduce food waste.",
   "start_url": "/",
   "display": "standalone",
